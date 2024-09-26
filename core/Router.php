@@ -49,6 +49,8 @@ class Router
 
     public function dispatch(): mixed
     {
+        $path = $this->request->getPath();
+
         return 'TEST';
     }
 
